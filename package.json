@@ -1,5 +1,5 @@
 {
-  "name": "bs-free",
+  "name": "@enetsee/bs-free",
   "version": "0.1.0",
   "scripts": {
     "clean": "bsb -clean-world",
@@ -9,8 +9,11 @@
   "keywords": [
     "BuckleScript"
   ],
-  "author": "",
+  "author": "Michael Thomas",
   "license": "MIT",
+  "dependencies": {
+    "@enetsee/core-category": "^1.7.2"
+  },
   "devDependencies": {
     "bs-platform": "^7.0.1"
   }
